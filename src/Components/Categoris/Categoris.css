@@ -1,0 +1,21 @@
+.categoris {
+  display: flex;
+  gap: 15px;
+  padding: 30px 0;
+}
+
+.categoris p {
+  text-align: center;
+  width: 70px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: silver;
+  padding: 7px;
+  cursor: pointer;
+  transition: all 500ms ease; 
+}
+
+.categoris p:hover {
+  border-color: rgba(0, 0, 0, 0.571);
+  transform: scale(1.1);
+}

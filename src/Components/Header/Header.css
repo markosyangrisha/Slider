@@ -1,0 +1,92 @@
+header .logo {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+header .presentation {
+  width: 100%;
+  height: 600px;
+  background: url('https://images.unsplash.com/photo-1692509794227-876ff0279a14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80z') no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;
+  background-color: #bcbcbc;
+  margin: 10px auto;
+}
+
+header .presentation::after {
+  content: 'very good bare';
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  width: 300px;
+}
+
+header .presentation::before {
+  content: 'you like it ?';
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  width: 300px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 15px;
+  position: relative;
+}
+
+.shope-icon {
+  cursor: pointer;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.shope-icon:hover,
+.shope-icon.active {
+  color: red;
+  transform: scale(1.5);
+}
+
+.shope-block {
+  position: relative;
+  border: 1px solid black;
+}
+
+.shope-carde {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-top: 7px solid black;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  background-color: white;
+  z-index: 5;
+  border-radius: 15px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+} 
+.add_product {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shope-carde h2 {
+  font-size: 18px;
+  color: red;
+}
