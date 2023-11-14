@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px; 
+  object-fit: cover;
+  object-position: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: white;
+  border: none;
+}

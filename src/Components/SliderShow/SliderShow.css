@@ -1,0 +1,26 @@
+.slider-show {
+  width: 900px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.main-picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-picture > img {
+  width: 80%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.down-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+}
